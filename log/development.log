@@ -1418,3 +1418,7 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 79ms (Views: 77.9ms | ActiveRecord: 0.5ms)
 
 
+Started GET "/posts?utf8=%E2%9C%93&author=16&commit=Filter" for 71.33.217.36 at 2020-08-07 17:52:58 +0000
+Cannot render console from 71.33.217.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  Parameters: {"utf8"=>"✓", "author"=>"16", "commit"=>"Filter"}
